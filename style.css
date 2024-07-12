@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1f5f8;
+    font-family: "Open Sans", sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.password {
+    padding: 8px;
+    margin: 8px;
+    caret-color: transparent;
+    cursor: pointer;
+}
+
+.password-button {
+    padding: 8px;
+    background: rgb(250, 131, 238);
+    margin: 8px;
+    border: none;
+    border-radius: 10px;
+}
+
+.password-button:hover {
+    cursor: pointer;
+    background: rgb(255, 107, 240);
+}
